@@ -1,0 +1,24 @@
+$body-bg: #fff;
+$body-color: #333;
+
+$hero-bg: #00347A;
+$footer-border: #01BBD9;
+$primary: #156BA7;
+$light: #fff;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 400px,
+  md: 600px,
+  lg: 768px,
+  xl: 1170px
+);
+
+$container-max-widths: (
+    sm: 400px,
+    md: 600px,
+    lg: 768px,
+    xl: 1170px
+);
+
+$grid-columns: 24 !default;

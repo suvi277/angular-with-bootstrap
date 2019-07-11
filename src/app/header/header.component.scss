@@ -1,0 +1,37 @@
+.navbar-brand {
+    position: absolute;
+    top: 0;
+}
+
+.toggler-text {
+    padding-left: 15px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        right: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        margin-right: 50%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.show {
+        right: 0;
+    }
+}
