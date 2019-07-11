@@ -1,5 +1,6 @@
 # angular-with-bootstrap
-This is the small responsive website using angular and bootstrap
+Small app built with bootstrap and angular 7 using angular-cli
+
 
 ## Quick Start ##
 
