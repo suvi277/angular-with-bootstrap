@@ -1,3 +1,5 @@
+@import '../../styles';
+
 .navbar-brand {
     position: absolute;
     top: 0;
@@ -5,7 +7,7 @@
 
 .toggler-text {
     padding-left: 15px;
-    color: #333;
+    color: $color-grey;
 }
 
 @media (max-width: 768px) {

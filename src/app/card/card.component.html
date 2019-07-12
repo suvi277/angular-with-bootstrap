@@ -1,0 +1,8 @@
+<div class="{{className}}">
+  <h5>{{title}}</h5>
+  <div *ngIf="imgSrc" class="img-card mb-3">
+    <img src="{{imgSrc}}" alt="image" class="w-100">
+  </div>
+  <p *ngIf="content" [class.mb-0]="!cta">{{content}}</p>
+  <a *ngIf="cta" class="btn btn-primary" href="#" role="button">{{cta}} &raquo;</a>
+</div>

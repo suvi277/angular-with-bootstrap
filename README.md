@@ -1,5 +1,5 @@
 # angular-with-bootstrap
-Small app built with bootstrap and angular 7 using angular-cli
+ Simple Angular 7 application and style components using Bootstrap 4
 
 
 ## Quick Start ##
@@ -10,6 +10,13 @@ git clone https://github.com/mdbootstrap/Angular-Bootstrap-with-Material-Design.
 Run npm i
 Run npm start
 Voilà! Open browser and visit http://localhost:4200
+
+## Disclaimer ##
+*Mobile menu is a swipe right menu (jQuery – click)*
+
+Since query click on Menu is already handled by bootstrap, so the swipe right animatation, I handled by CSS transition.
+
+
 
 
 

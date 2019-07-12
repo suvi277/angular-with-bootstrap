@@ -6,5 +6,25 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+	imageList = [
+		{
+			title: "Heading",
+			imgSrc: "//placehold.it/250x150",
+			cta: "See More"
+		},{
+			title: "Heading",
+			imgSrc: "//placehold.it/250x150",
+			cta: "See More"
+		},{
+			title: "Heading",
+			imgSrc: "//placehold.it/250x150",
+			cta: "See More"
+		},{
+			title: "Heading",
+			imgSrc: "//placehold.it/250x150",
+			cta: "See More"
+		}
+	]
+
     constructor() { }
 }
