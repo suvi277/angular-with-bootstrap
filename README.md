@@ -14,7 +14,7 @@ Voilà! Open browser and visit http://localhost:4200
 ## Disclaimer ##
 *Mobile menu is a swipe right menu (jQuery – click)*
 
-Since query click on Menu is already handled by bootstrap, so the swipe right animatation, I handled by CSS transition.
+Since jquery click on Menu is already handled by bootstrap, so the swipe right animatation, I handled by CSS transition.
 
 
 
