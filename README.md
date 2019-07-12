@@ -5,7 +5,7 @@
 ## Quick Start ##
 
 Clone following repo:
-git clone https://github.com/mdbootstrap/Angular-Bootstrap-with-Material-Design.git .
+git clone https://github.com/suvi277/angular-with-bootstrap.git.
 
 Run npm i
 Run npm start
